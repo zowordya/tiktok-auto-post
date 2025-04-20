@@ -5,6 +5,54 @@ build/
 dist/
 wheels/
 *.egg-info
+.python-version
 
 # Virtual environments
 .venv
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# VS Code settings
+.vscode/
+
+# PyInstaller
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test cache
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+
+# dotenv
+.env
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+.uv/
